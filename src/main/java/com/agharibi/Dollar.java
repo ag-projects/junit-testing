@@ -11,7 +11,13 @@ public class Dollar {
         this.amount = amount;
     }
 
-    public void times(int multiplier) {
-        this.amount *= multiplier;
+    public Dollar times(int multiplier) {
+        return new Dollar(amount * multiplier);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        Dollar dollar = (Dollar) obj;
+        return this.amount == dollar.amount;
     }
 }

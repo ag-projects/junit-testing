@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d14f8b2-e542-4103-aece-24694ee09f15" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../interview/src/pkg01/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/Dollar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/agharibi/MoneyTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/BeerController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/CustomerController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/v2/BeerControllerV2.java" afterDir="false" />
@@ -19,8 +17,11 @@
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2Impl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-security-fundamentals/src/main/java/com/agharibi/springsecurity/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/agharibi/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agharibi/MoneyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/Dollar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/Dollar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/agharibi/MoneyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/agharibi/MoneyTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-docker-aws/README.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-mvc-05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" afterDir="false" />
@@ -103,7 +104,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="aws" />
@@ -113,9 +114,26 @@
       <recent name="com.agharibi" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MoneyTest.testEquality">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-by-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agharibi" />
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.MoneyTest" />
+      <option name="METHOD_NAME" value="testEquality" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoneyTest.testEquality" />
         <item itemvalue="JUnit.MoneyTest.testMultiplication" />
       </list>
     </recent_temporary>
@@ -181,7 +200,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577293331499</updated>
-      <workItem from="1577293332876" duration="929000" />
+      <workItem from="1577293332876" duration="2390000" />
     </task>
     <servers />
   </component>
@@ -189,25 +208,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1577294157307">
+    <state x="-1363" y="286" key="#Project_Structure" timestamp="1577297067944">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294157307" />
-    <state width="1620" height="223" key="GridCell.Tab.0.bottom" timestamp="1577294338224">
+    <state x="-1363" y="286" key="#Project_Structure/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297067944" />
+    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1577297079099">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="223" key="GridCell.Tab.0.bottom/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294338224" />
-    <state width="1620" height="223" key="GridCell.Tab.0.center" timestamp="1577294338223">
+    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297079099" />
+    <state width="1620" height="223" key="GridCell.Tab.0.bottom" timestamp="1577297243142">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="223" key="GridCell.Tab.0.center/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294338223" />
-    <state width="1620" height="223" key="GridCell.Tab.0.left" timestamp="1577294338222">
+    <state width="1620" height="223" key="GridCell.Tab.0.bottom/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297243142" />
+    <state width="1620" height="223" key="GridCell.Tab.0.center" timestamp="1577297243142">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="223" key="GridCell.Tab.0.left/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294338222" />
-    <state width="1620" height="223" key="GridCell.Tab.0.right" timestamp="1577294338223">
+    <state width="1620" height="223" key="GridCell.Tab.0.center/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297243142" />
+    <state width="1620" height="223" key="GridCell.Tab.0.left" timestamp="1577297243141">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="223" key="GridCell.Tab.0.right/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294338223" />
+    <state width="1620" height="223" key="GridCell.Tab.0.left/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297243141" />
+    <state width="1620" height="223" key="GridCell.Tab.0.right" timestamp="1577297243142">
+      <screen x="-1881" y="67" width="1881" height="1057" />
+    </state>
+    <state width="1620" height="223" key="GridCell.Tab.0.right/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297243142" />
   </component>
 </project>
