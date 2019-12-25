@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d14f8b2-e542-4103-aece-24694ee09f15" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../interview/src/pkg01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/Franc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/agharibi/Franc.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/BeerController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/CustomerController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/v2/BeerControllerV2.java" afterDir="false" />
@@ -107,16 +109,32 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="aws" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.agharibi" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyTest.testEquality">
+  <component name="RunManager" selected="JUnit.MoneyTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-by-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agharibi" />
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.MoneyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -155,6 +173,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoneyTest.testMultiplicationDollar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-by-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agharibi" />
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.MoneyTest" />
+      <option name="METHOD_NAME" value="testMultiplicationDollar" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -173,8 +208,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoneyTest.testEquality" />
+        <item itemvalue="JUnit.MoneyTest" />
+        <item itemvalue="JUnit.MoneyTest.testMultiplicationDollar" />
         <item itemvalue="JUnit.MoneyTest.testMultiplication" />
+        <item itemvalue="JUnit.MoneyTest.testEquality" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +237,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577293331499</updated>
-      <workItem from="1577293332876" duration="2390000" />
+      <workItem from="1577293332876" duration="3482000" />
     </task>
     <servers />
   </component>
@@ -212,25 +249,29 @@
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
     <state x="-1363" y="286" key="#Project_Structure/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297067944" />
-    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1577297079099">
+    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1577297878290">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297079099" />
-    <state width="1620" height="223" key="GridCell.Tab.0.bottom" timestamp="1577297243142">
+    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297878290" />
+    <state width="1620" height="237" key="GridCell.Tab.0.bottom" timestamp="1577298120173">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="223" key="GridCell.Tab.0.bottom/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297243142" />
-    <state width="1620" height="223" key="GridCell.Tab.0.center" timestamp="1577297243142">
+    <state width="1620" height="237" key="GridCell.Tab.0.bottom/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577298120173" />
+    <state width="1620" height="237" key="GridCell.Tab.0.center" timestamp="1577298120172">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="223" key="GridCell.Tab.0.center/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297243142" />
-    <state width="1620" height="223" key="GridCell.Tab.0.left" timestamp="1577297243141">
+    <state width="1620" height="237" key="GridCell.Tab.0.center/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577298120172" />
+    <state width="1620" height="237" key="GridCell.Tab.0.left" timestamp="1577298120172">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="223" key="GridCell.Tab.0.left/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297243141" />
-    <state width="1620" height="223" key="GridCell.Tab.0.right" timestamp="1577297243142">
+    <state width="1620" height="237" key="GridCell.Tab.0.left/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577298120172" />
+    <state width="1620" height="237" key="GridCell.Tab.0.right" timestamp="1577298120173">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="223" key="GridCell.Tab.0.right/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297243142" />
+    <state width="1620" height="237" key="GridCell.Tab.0.right/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577298120173" />
+    <state x="-1449" y="235" key="SettingsEditor" timestamp="1577298334858">
+      <screen x="-1881" y="67" width="1881" height="1057" />
+    </state>
+    <state x="-1449" y="235" key="SettingsEditor/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577298334858" />
   </component>
 </project>
