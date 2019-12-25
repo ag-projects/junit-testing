@@ -18,8 +18,12 @@
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2Impl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-security-fundamentals/src/main/java/com/agharibi/springsecurity/controllers/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/Dollar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/Franc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/Money.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/agharibi/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/agharibi/MoneyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/Dollar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/Dollar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/Franc.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/Franc.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/agharibi/MoneyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/agharibi/MoneyTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-docker-aws/README.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-mvc-05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/pom.xml" afterDir="false" />
@@ -113,7 +117,7 @@
       <recent name="com.agharibi" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyTest.testEqualityDollar">
+  <component name="RunManager" selected="JUnit.MoneyTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -222,9 +226,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MoneyTest.testEqualityDollar" />
         <item itemvalue="JUnit.MoneyTest" />
         <item itemvalue="JUnit.MoneyTest.testMultiplicationDollar" />
+        <item itemvalue="JUnit.MoneyTest.testEqualityDollar" />
         <item itemvalue="JUnit.MoneyTest.testMultiplication" />
         <item itemvalue="JUnit.MoneyTest.testEquality" />
       </list>
@@ -253,7 +257,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577293331499</updated>
       <workItem from="1577293332876" duration="3482000" />
-      <workItem from="1577298348950" duration="1500000" />
+      <workItem from="1577298348950" duration="2708000" />
     </task>
     <servers />
   </component>
@@ -265,26 +269,26 @@
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
     <state x="-1363" y="286" key="#Project_Structure/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297067944" />
-    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1577299225237">
+    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1577300936424">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577299225237" />
-    <state width="1620" height="237" key="GridCell.Tab.0.bottom" timestamp="1577299825019">
+    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577300936424" />
+    <state width="1620" height="237" key="GridCell.Tab.0.bottom" timestamp="1577301192456">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="237" key="GridCell.Tab.0.bottom/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577299825019" />
-    <state width="1620" height="237" key="GridCell.Tab.0.center" timestamp="1577299825018">
+    <state width="1620" height="237" key="GridCell.Tab.0.bottom/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301192456" />
+    <state width="1620" height="237" key="GridCell.Tab.0.center" timestamp="1577301192455">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="237" key="GridCell.Tab.0.center/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577299825018" />
-    <state width="1620" height="237" key="GridCell.Tab.0.left" timestamp="1577299825017">
+    <state width="1620" height="237" key="GridCell.Tab.0.center/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301192455" />
+    <state width="1620" height="237" key="GridCell.Tab.0.left" timestamp="1577301192455">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="237" key="GridCell.Tab.0.left/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577299825017" />
-    <state width="1620" height="237" key="GridCell.Tab.0.right" timestamp="1577299825018">
+    <state width="1620" height="237" key="GridCell.Tab.0.left/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301192455" />
+    <state width="1620" height="237" key="GridCell.Tab.0.right" timestamp="1577301192456">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
-    <state width="1620" height="237" key="GridCell.Tab.0.right/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577299825018" />
+    <state width="1620" height="237" key="GridCell.Tab.0.right/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301192456" />
     <state x="-1449" y="235" key="SettingsEditor" timestamp="1577298334858">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
