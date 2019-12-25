@@ -1,33 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d14f8b2-e542-4103-aece-24694ee09f15" name="Default Changelist" comment="" />
+    <list default="true" id="9d14f8b2-e542-4103-aece-24694ee09f15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../interview/src/pkg01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/agharibi/MoneyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/BeerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/v2/BeerControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/BeerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/v2/BeerDtoV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/v2/BeerStyleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/BeerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/BeerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-fundamentals/src/main/java/com/agharibi/springsecurity/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-docker-aws/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-05/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-mvc-05/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-mvc-05/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/SecurityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/persistence/InMemoryUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/persistence/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/web/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/java/com/agharibi/security/web/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-security/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-security/src/test/java/com/agharibi/security/SecurityApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/READ.ME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/java/com/agharibi/thymeleaf/ThymeleafApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/java/com/agharibi/thymeleaf/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/java/com/agharibi/thymeleaf/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/static/js/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/main/resources/templates/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thymeleaf-master/src/test/java/com/agharibi/thymeleaf/ThymeleafApplicationTests.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$USER_HOME$/Desktop/Spring project/giflib" value="2921001180000" />
-        <entry key="$USER_HOME$/Desktop/Spring project/giflib-hibernate-s1v3" value="2920123244000" />
-        <entry key="$USER_HOME$/Desktop/giflib" value="2926936771000" />
-        <entry key="$USER_HOME$/Desktop/springProject/giflib" value="2926936771000" />
-        <entry key="$USER_HOME$/Desktop/springSecurity/todoList" value="1460054666000" />
-        <entry key="$USER_HOME$/Desktop/todotoday" value="1460054666000" />
-        <entry key="$USER_HOME$/Downloads/giflib-hibernate-s1v3" value="2920123244000" />
-        <entry key="$USER_HOME$/Downloads/java-functional-programming/1-functional-programming-with-java-m1" value="1388970906000" />
+        <entry key="$PROJECT_DIR$/.." value="1.0.0" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1VU2PrroECYfUdprAYBKNOxRqo3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,9 +108,31 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="aws" />
   </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.agharibi" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MoneyTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-by-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.agharibi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.agharibi" />
+      <option name="MAIN_CLASS_NAME" value="com.agharibi.MoneyTest" />
+      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -63,6 +153,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MoneyTest.testMultiplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -86,7 +181,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577293331499</updated>
+      <workItem from="1577293332876" duration="929000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1577294157307">
+      <screen x="-1881" y="67" width="1881" height="1057" />
+    </state>
+    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294157307" />
+    <state width="1620" height="223" key="GridCell.Tab.0.bottom" timestamp="1577294338224">
+      <screen x="-1881" y="67" width="1881" height="1057" />
+    </state>
+    <state width="1620" height="223" key="GridCell.Tab.0.bottom/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294338224" />
+    <state width="1620" height="223" key="GridCell.Tab.0.center" timestamp="1577294338223">
+      <screen x="-1881" y="67" width="1881" height="1057" />
+    </state>
+    <state width="1620" height="223" key="GridCell.Tab.0.center/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294338223" />
+    <state width="1620" height="223" key="GridCell.Tab.0.left" timestamp="1577294338222">
+      <screen x="-1881" y="67" width="1881" height="1057" />
+    </state>
+    <state width="1620" height="223" key="GridCell.Tab.0.left/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294338222" />
+    <state width="1620" height="223" key="GridCell.Tab.0.right" timestamp="1577294338223">
+      <screen x="-1881" y="67" width="1881" height="1057" />
+    </state>
+    <state width="1620" height="223" key="GridCell.Tab.0.right/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577294338223" />
   </component>
 </project>
