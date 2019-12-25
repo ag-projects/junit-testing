@@ -1,11 +1,8 @@
 package com.agharibi;
 
-public class Franc {
+public class Franc extends Money {
 
-    private int amount;
-
-    public Franc() {
-    }
+    public Franc() { }
 
     public Franc(int amount) {
         this.amount = amount;
@@ -15,9 +12,4 @@ public class Franc {
         return new Franc(amount * multiplier);
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        Franc franc = (Franc) obj;
-        return this.amount == franc.amount;
-    }
 }
