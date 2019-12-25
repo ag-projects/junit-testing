@@ -16,5 +16,5 @@ buildNumber.properties
 src/main/resources/
 target/generated-sources/
 target/generated-test-sources/
-!/.idea/workspace.xml
+.idea/workspace.xml
 /target/
