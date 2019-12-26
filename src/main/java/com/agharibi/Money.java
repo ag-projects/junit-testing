@@ -34,11 +34,16 @@ public class Money implements Experssion {
     }
 
     @Override
+    public Money reduce(String to) {
+        return this;
+    }
+
+    @Override
     public String toString() {
         return amount + " " + currency;
     }
 
-    public Experssion plus(Money added) {
-        return new Money(amount + added.amount, currency);
+    public Experssion plus(Money addend) {
+        return new Sum(this, addend);
     }
 }
