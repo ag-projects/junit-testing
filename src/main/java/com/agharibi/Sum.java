@@ -2,8 +2,8 @@ package com.agharibi;
 
 public class Sum implements Experssion {
 
-    protected Experssion augmend;
-    protected Experssion addmend;
+    protected final Experssion augmend;
+    protected final Experssion addmend;
 
     public Sum(Experssion augmend, Experssion addmend) {
         this.augmend = augmend;
