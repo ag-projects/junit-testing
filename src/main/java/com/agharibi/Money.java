@@ -14,7 +14,8 @@ public class Money implements Experssion {
         return this.currency;
     }
 
-    public  Money times(int multiplier) {
+    @Override
+    public  Experssion times(int multiplier) {
         return new Money(this.amount * multiplier, this.currency);
     }
 
@@ -43,7 +44,8 @@ public class Money implements Experssion {
         return amount + " " + currency;
     }
 
-    public Experssion plus(Money addend) {
+    @Override
+    public Experssion plus(Experssion addend) {
         return new Sum(this, addend);
     }
 }

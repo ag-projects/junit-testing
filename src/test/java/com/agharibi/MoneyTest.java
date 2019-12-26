@@ -2,6 +2,8 @@ package com.agharibi;
 
 import org.junit.jupiter.api.Test;
 
+import javax.swing.*;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
@@ -76,5 +78,43 @@ public class MoneyTest {
     void testIdentityRate() {
         assertEquals(1, new Bank().rate("USD", "USD"));
         assertEquals(1, new Bank().rate("CHF", "CHF"));
+    }
+
+    @Test
+    void testMixedAddition() {
+        Experssion fiveBucks = Money.dollar(5);
+        Experssion tenFrancs = Money.franc(10);
+
+        Bank bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+
+        Money result = bank.reduce(fiveBucks.plus(tenFrancs), "USD");
+        assertEquals(Money.dollar(10), result);
+    }
+
+    @Test
+    void testSumPlusMoney() {
+        Experssion fiveBucks = Money.dollar(5);
+        Experssion tenFranc = Money.franc(10);
+
+        Bank bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+
+        Experssion sum = new Sum(fiveBucks, tenFranc).plus(fiveBucks);
+        Money result = bank.reduce(sum, "USD");
+        assertEquals(Money.dollar(15), result);
+    }
+
+    @Test
+    void testSumTimes() {
+        Experssion fiveBucks = Money.dollar(5);
+        Experssion tenFrancs = Money.franc(10);
+
+        Bank bank = new Bank();
+        bank.addRate("CHF", "USD", 2);
+
+        Experssion sum = new Sum(fiveBucks, tenFrancs).times(2);
+        Money result = bank.reduce(sum, "USD");
+        assertEquals(Money.dollar(20), result);
     }
 }
