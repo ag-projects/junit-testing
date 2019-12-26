@@ -3,15 +3,25 @@ package com.agharibi;
 public abstract class Money {
 
     protected int amount;
+    protected String currency;
+
+    public Money(int amount, String currency) {
+        this.amount = amount;
+        this.currency = currency;
+    }
+
+    protected String currency() {
+        return this.currency;
+    }
 
     public abstract Money times(int multiplier);
 
     public static Money dollar(int amount) {
-        return new Dollar(amount);
+        return new Dollar(amount, "USD");
     }
 
-    public static Money Franc(int amount) {
-        return new Franc(amount);
+    public static Money franc(int amount) {
+        return new Franc(amount, "CHF");
     }
 
     @Override
@@ -20,6 +30,5 @@ public abstract class Money {
         return this.amount == money.amount
             && this.getClass().equals(obj.getClass());
     }
-
 
 }

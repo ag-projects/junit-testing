@@ -17,6 +17,7 @@
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2Impl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-security-fundamentals/src/main/java/com/agharibi/springsecurity/controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/Dollar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/Dollar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/Franc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/Franc.java" afterDir="false" />
@@ -257,7 +258,7 @@
       <option name="presentableId" value="Default" />
       <updated>1577293331499</updated>
       <workItem from="1577293332876" duration="3482000" />
-      <workItem from="1577298348950" duration="2708000" />
+      <workItem from="1577298348950" duration="4563000" />
     </task>
     <servers />
   </component>
@@ -269,26 +270,31 @@
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
     <state x="-1363" y="286" key="#Project_Structure/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577297067944" />
-    <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser" timestamp="1577300936424">
-      <screen x="-1881" y="67" width="1881" height="1057" />
+    <state x="641" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1577322860081">
+      <screen x="39" y="23" width="1881" height="1057" />
     </state>
     <state x="-1279" y="279" key="#com.intellij.ide.util.MemberChooser/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577300936424" />
-    <state width="1620" height="237" key="GridCell.Tab.0.bottom" timestamp="1577301192456">
-      <screen x="-1881" y="67" width="1881" height="1057" />
+    <state x="641" y="235" key="#com.intellij.ide.util.MemberChooser/1920.23.1920.1057/39.23.1881.1057/3840.253.1440.877@39.23.1881.1057" timestamp="1577322860081" />
+    <state width="1837" height="237" key="GridCell.Tab.0.bottom" timestamp="1577323666617">
+      <screen x="39" y="23" width="1881" height="1057" />
     </state>
-    <state width="1620" height="237" key="GridCell.Tab.0.bottom/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301192456" />
-    <state width="1620" height="237" key="GridCell.Tab.0.center" timestamp="1577301192455">
-      <screen x="-1881" y="67" width="1881" height="1057" />
+    <state width="1620" height="237" key="GridCell.Tab.0.bottom/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301273906" />
+    <state width="1837" height="237" key="GridCell.Tab.0.bottom/1920.23.1920.1057/39.23.1881.1057/3840.253.1440.877@39.23.1881.1057" timestamp="1577323666617" />
+    <state width="1837" height="237" key="GridCell.Tab.0.center" timestamp="1577323666616">
+      <screen x="39" y="23" width="1881" height="1057" />
     </state>
-    <state width="1620" height="237" key="GridCell.Tab.0.center/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301192455" />
-    <state width="1620" height="237" key="GridCell.Tab.0.left" timestamp="1577301192455">
-      <screen x="-1881" y="67" width="1881" height="1057" />
+    <state width="1620" height="237" key="GridCell.Tab.0.center/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301273905" />
+    <state width="1837" height="237" key="GridCell.Tab.0.center/1920.23.1920.1057/39.23.1881.1057/3840.253.1440.877@39.23.1881.1057" timestamp="1577323666616" />
+    <state width="1837" height="237" key="GridCell.Tab.0.left" timestamp="1577323666616">
+      <screen x="39" y="23" width="1881" height="1057" />
     </state>
-    <state width="1620" height="237" key="GridCell.Tab.0.left/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301192455" />
-    <state width="1620" height="237" key="GridCell.Tab.0.right" timestamp="1577301192456">
-      <screen x="-1881" y="67" width="1881" height="1057" />
+    <state width="1620" height="237" key="GridCell.Tab.0.left/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301273905" />
+    <state width="1837" height="237" key="GridCell.Tab.0.left/1920.23.1920.1057/39.23.1881.1057/3840.253.1440.877@39.23.1881.1057" timestamp="1577323666616" />
+    <state width="1837" height="237" key="GridCell.Tab.0.right" timestamp="1577323666617">
+      <screen x="39" y="23" width="1881" height="1057" />
     </state>
-    <state width="1620" height="237" key="GridCell.Tab.0.right/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301192456" />
+    <state width="1620" height="237" key="GridCell.Tab.0.right/-1881.67.1881.1057/0.23.1920.1057@-1881.67.1881.1057" timestamp="1577301273905" />
+    <state width="1837" height="237" key="GridCell.Tab.0.right/1920.23.1920.1057/39.23.1881.1057/3840.253.1440.877@39.23.1881.1057" timestamp="1577323666617" />
     <state x="-1449" y="235" key="SettingsEditor" timestamp="1577298334858">
       <screen x="-1881" y="67" width="1881" height="1057" />
     </state>
