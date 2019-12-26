@@ -1,6 +1,6 @@
 package com.agharibi;
 
-public class Money {
+public class Money implements Experssion {
 
     protected int amount;
     protected String currency;
@@ -36,5 +36,9 @@ public class Money {
     @Override
     public String toString() {
         return amount + " " + currency;
+    }
+
+    public Experssion plus(Money added) {
+        return new Money(amount + added.amount, currency);
     }
 }
