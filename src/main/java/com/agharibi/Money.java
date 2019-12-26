@@ -34,8 +34,8 @@ public class Money implements Experssion {
     }
 
     @Override
-    public Money reduce(String to) {
-        return this;
+    public Money reduce(Bank bank, String to) {
+        return new Money(amount / bank.rate(this.currency, to), to);
     }
 
     @Override
